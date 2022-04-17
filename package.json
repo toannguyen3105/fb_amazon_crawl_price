@@ -1,0 +1,30 @@
+{
+  "name": "nht-amazon-like",
+  "version": "1.0.0",
+  "description": "building an amazon ike bot with Nodejs & Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toannguyen3105/fb_amazon_crawl_price.git"
+  },
+  "keywords": [
+    "amazon"
+  ],
+  "author": "toannguyen3105",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toannguyen3105/fb_amazon_crawl_price/issues"
+  },
+  "homepage": "https://github.com/toannguyen3105/fb_amazon_crawl_price#readme",
+  "dependencies": {
+    "gologin": "^1.0.35",
+    "puppeteer": "^13.5.2",
+    "puppeteer-cluster": "^0.23.0",
+    "puppeteer-core": "^13.4.1",
+    "xlsx": "^0.18.5"
+  }
+}
